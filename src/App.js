@@ -3,9 +3,9 @@ import ContactDetails from './contactdetails';
 function App() {
   return (
     <div className="App">
-      <contactDetails name="Abdul" age="20" />
+      <ContactDetails MyName="Abdul" MyAge="20" />
       <hr />
-      <contactDetails name="Hatim" age="25" />
+      <ContactDetails MyName="Irfan" MyAge="26" />
     </div>
   );
 }
