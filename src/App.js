@@ -1,9 +1,11 @@
 import './App.css';
-
+import ContactDetails from './contactdetails';
 function App() {
   return (
     <div className="App">
-      Hello World yaaaaaaahoooooooooooooo
+      <contactDetails name="Abdul" age="20" />
+      <hr />
+      <contactDetails name="Hatim" age="25" />
     </div>
   );
 }
